@@ -16,36 +16,45 @@
   </head>
   <body>
     <main>
-      <section class="vh-100 d-flex align-items-center">
-        <div
-          class="card-group container col-9 d-flex align-items text-center p-5 gap-5"
-        >
-          <div class="card border card-hover py-5 px-4">
-            <i class="fa-solid fa-car fs-1 pb-5"></i>
-            <h2 class="fs-4">Largest Dealership of Cars</h2>
-            <p class="line-1 fs-6 position-relative pb-2">
-              Nemo enim ipsam voluptatem quia <br />
-              voluptas sit aspernatur aut <br />
-              odit aut den fugit sed quia.
-            </p>
+      <!-- "1. vh-100 klasina ehtiac yoxdur 
+       2.row klasi acmadan col klasi istfade elemisen
+       3.card-lardaki elementler text-center ile ortaladim
+       4.h2 elementlerine text-nowrap yazildki asagi setre dusmesin
+      -->
+      <section class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card border card-hover py-5 px-4 text-center">
+              <i class="fa-solid fa-car fs-1 pb-5"></i>
+              <h2 class="fs-4 text-nowrap">Largest Dealership of Cars</h2>
+              <p class="line-1 fs-6 position-relative pb-2">
+                Nemo enim ipsam voluptatem quia <br />
+                voluptas sit aspernatur aut <br />
+                odit aut den fugit sed quia.
+              </p>
+            </div>
           </div>
-          <div class="card border card-hover py-5 px-4">
-            <i class="fa-solid fa-car-side fs-1 pb-5"></i>
-            <h2 class="fs-4">Unlimited Repair Warranty</h2>
-            <p class="line-1 fs-6 position-relative pb-2">
-              Nemo enim ipsam voluptatem quia <br />
-              voluptas sit aspernatur aut <br />
-              odit aut den fugit sed quia.
-            </p>
+          <div class="col-4">
+            <div class="card border card-hover py-5 px-4 text-center">
+              <i class="fa-solid fa-car fs-1 pb-5"></i>
+              <h2 class="fs-4 text-nowrap">Largest Dealership of Cars</h2>
+              <p class="line-1 fs-6 position-relative pb-2">
+                Nemo enim ipsam voluptatem quia <br />
+                voluptas sit aspernatur aut <br />
+                odit aut den fugit sed quia.
+              </p>
+            </div>
           </div>
-          <div class="card border card-hover py-5 px-4">
-            <i class="fa-solid fa-car-burst fs-1 pb-5"></i>
-            <h2 class="fs-4">Insurance Support</h2>
-            <p class="line-1 fs-6 position-relative pb-2">
-              Nemo enim ipsam voluptatem quia <br />
-              voluptas sit aspernatur aut <br />
-              odit aut den fugit sed quia.
-            </p>
+          <div class="col-4">
+            <div class="card border card-hover py-5 px-4 text-center">
+              <i class="fa-solid fa-car fs-1 pb-5"></i>
+              <h2 class="fs-4 text-nowrap">Largest Dealership of Cars</h2>
+              <p class="line-1 fs-6 position-relative pb-2">
+                Nemo enim ipsam voluptatem quia <br />
+                voluptas sit aspernatur aut <br />
+                odit aut den fugit sed quia.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -178,14 +187,39 @@
           </div>
         </div>
       </section>
+      <!-- burada card-group falan istifade etme . bu taskin strukturu row ve col mentiqidir 
+       komment setrine aldigim hisseni asagida gosterdiyim numuneye uygun duzelt -->
       <section class="container-fluid py-5">
         <div class="container col-9">
           <div class="text-center">
             <p>Checkout the Featured Cars</p>
             <h2 class="fs-1 line-2 position-relative">Featured Cars</h2>
           </div>
-          <div class="card-group gap-5 py-5 po">
-            <div class="card border">
+
+          <div class="row">
+            <div class="col-3">
+              <div class="card">
+                <img src="./image/fc1.png" class="card-img-top p-2" alt="..." />
+                <div class="card-body p-0 border-top">
+                  <small class="text-body-secondary card-text"
+                    >Model: 2017 3100 Mi 240HP <br />
+                    automatic</small
+                  >
+                </div>
+              </div>
+              <div>
+                <p class="fw-semibold fs-6">BMW 6-Series Gran Coupe</p>
+                <span class="block">$89,395</span>
+                <p>
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="card">
               <img
                 src="./image/fc1.png"
                 class="card-img-top object-fit-contain py-5 px-4"
@@ -195,167 +229,7 @@
                 <small class="text-body-secondary"
                   >Model: 2017 3100 Mi 240HP <br />
                   automatic</small
-                >
-              </div>
-              <div class="p-3">
-                <h3 class="fs-5">BMW 6-Series Gran Coupe</h3>
-                <span>$89,395</span>
-                <p class="fs-6 opacity-75 pt-2">
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non.
-                </p>
-              </div>
-            </div>
-            <div class="card border">
-              <img
-                src="./image/fc2.png"
-                class="card-img-top object-fit-contain py-5 px-4"
-                alt="..."
-              />
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Model: 2017 3100 Mi 240HP <br />
-                  automatic</small
-                >
-              </div>
-              <div class="p-3">
-                <h3 class="fs-5">Chevrolet Camaro WMV20</h3>
-                <span>$66,575</span>
-                <p class="fs-6 opacity-75 pt-2">
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non.
-                </p>
-              </div>
-            </div>
-            <div class="card border">
-              <img
-                src="./image/fc3.png"
-                class="card-img-top object-fit-contain py-5 px-4"
-                alt="..."
-              />
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Model: 2017 3100 Mi 240HP <br />
-                  automatic</small
-                >
-              </div>
-              <div class="p-3">
-                <h3 class="fs-5">Lamborghini V520</h3>
-                <span>$125,250</span>
-                <p class="fs-6 opacity-75 pt-2">
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non.
-                </p>
-              </div>
-            </div>
-            <div class="card border">
-              <img
-                src="./image/fc4.png"
-                class="card-img-top object-fit-contain py-5 px-4"
-                alt="..."
-              />
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Model: 2017 3100 Mi 240HP <br />
-                  automatic</small
-                >
-              </div>
-              <div class="p-3">
-                <h3 class="fs-5">Audi A3 Sedan</h3>
-                <span>$95,500</span>
-                <p class="fs-6 opacity-75 pt-2">
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="card-group gap-5 py-5">
-            <div class="card border">
-              <img
-                src="./image/fc4.png"
-                class="card-img-top object-fit-contain py-5 px-4"
-                alt="..."
-              />
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Model: 2017 3100 Mi 240HP <br />
-                  automatic</small
-                >
-              </div>
-              <div class="p-3">
-                <h3 class="fs-5">Infiniti Z5</h3>
-                <span>$36,850</span>
-                <p class="fs-6 opacity-75 pt-2">
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non.
-                </p>
-              </div>
-            </div>
-            <div class="card border">
-              <img
-                src="./image/fc5.png"
-                class="card-img-top object-fit-contain py-5 px-4"
-                alt="..."
-              />
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Model: 2017 3100 Mi 240HP <br />
-                  automatic</small
-                >
-              </div>
-              <div class="p-3">
-                <h3 class="fs-5">Porsche 718 Cayman</h3>
-                <span>$48,500</span>
-                <p class="fs-6 opacity-75 pt-2">
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non.
-                </p>
-              </div>
-            </div>
-            <div class="card border">
-              <img
-                src="./image/fc7.png"
-                class="card-img-top object-fit-contain py-5 px-4"
-                alt="..."
-              />
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Model: 2017 3100 Mi 240HP <br />
-                  automatic</small
-                >
-              </div>
-              <div class="p-3">
-                <h3 class="fs-5">BMW 8-Series Coupe</h3>
-                <span>$56,000</span>
-                <p class="fs-6 opacity-75 pt-2">
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non.
-                </p>
-              </div>
-            </div>
-            <div class="card border">
-              <img
-                src="./image/fc8.png"
-                class="card-img-top object-fit-contain py-5 px-4"
-                alt="..."
-              />
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Model: 2017 3100 Mi 240HP <br />
-                  automatic</small
-                >
-              </div>
-              <div class="p-3">
-                <h3 class="fs-5">BMW Xseries-6</h3>
-                <span>$75,800</span>
-                <p class="fs-6 opacity-75 pt-2">
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non.
-                </p>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </section>
       <section class="container-fluid bg-light py-5">
@@ -423,7 +297,9 @@
             alt=""
           />
         </figure>
+           -->
       </section>
+
       <footer class="container-fluid py-5 bg-primary">
         <div class="container col-9 d-flex justify-content-between gap-5">
           <div>
