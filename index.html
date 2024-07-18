@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="vh-100 d-flex align-items-center">
+        <div
+          class="card-group container col-9 d-flex align-items text-center p-5 gap-5"
+        >
+          <div class="card border card-hover py-5 px-4">
+            <i class="fa-solid fa-car fs-1 pb-5"></i>
+            <h2 class="fs-4">Largest Dealership of Cars</h2>
+            <p class="line-1 fs-6 position-relative pb-2">
+              Nemo enim ipsam voluptatem quia <br />
+              voluptas sit aspernatur aut <br />
+              odit aut den fugit sed quia.
+            </p>
+          </div>
+          <div class="card border card-hover py-5 px-4">
+            <i class="fa-solid fa-car-side fs-1 pb-5"></i>
+            <h2 class="fs-4">Unlimited Repair Warranty</h2>
+            <p class="line-1 fs-6 position-relative pb-2">
+              Nemo enim ipsam voluptatem quia <br />
+              voluptas sit aspernatur aut <br />
+              odit aut den fugit sed quia.
+            </p>
+          </div>
+          <div class="card border card-hover py-5 px-4">
+            <i class="fa-solid fa-car-burst fs-1 pb-5"></i>
+            <h2 class="fs-4">Insurance Support</h2>
+            <p class="line-1 fs-6 position-relative pb-2">
+              Nemo enim ipsam voluptatem quia <br />
+              voluptas sit aspernatur aut <br />
+              odit aut den fugit sed quia.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid bg-light py-5">
+        <div class="container col-9">
+          <div class="text-center">
+            <p>Checkout the Latest Cars</p>
+            <h2 class="fs-1 line-2 position-relative">Newest Cars</h2>
+          </div>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active bg-dark"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class="bg-dark"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+                class="bg-dark"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active py-5">
+                <div class="d-flex">
+                  <img
+                    src="./image/ncm1.png"
+                    class="d-block object-fit-contain"
+                    alt="..."
+                  />
+                  <div class="ps-5">
+                    <h3 class="fs-1 text-secondary">Chevrolet Camaro Za100</h3>
+                    <p class="py-5 opacity-75">
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum. <br />
+                      <br />Sed ut pers unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium.
+                    </p>
+                    <button class="btn btn-primary px-4 py-3">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item py-5">
+                <div class="d-flex">
+                  <img
+                    src="./image/ncm2.png"
+                    class="d-block object-fit-contain"
+                    alt="..."
+                  />
+                  <div class="ps-5">
+                    <h3 class="fs-1 text-secondary">BMW Series-3 Wagon</h3>
+                    <p class="py-5 opacity-75">
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum. <br />
+                      <br />Sed ut pers unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium.
+                    </p>
+                    <button class="btn btn-primary px-4 py-3">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item py-5">
+                <div class="d-flex">
+                  <img
+                    src="./image/ncm3.png"
+                    class="d-block object-fit-contain"
+                    alt="..."
+                  />
+                  <div class="ps-5">
+                    <h3 class="fs-1 text-secondary">Ferrari 488 Superfast</h3>
+                    <p class="py-5 opacity-75">
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum. <br />
+                      <br />Sed ut pers unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium.
+                    </p>
+                    <button class="btn btn-primary px-4 py-3">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid py-5">
+        <div class="container col-9">
+          <div class="text-center">
+            <p>Checkout the Featured Cars</p>
+            <h2 class="fs-1 line-2 position-relative">Featured Cars</h2>
+          </div>
+          <div class="card-group gap-5 py-5 po">
+            <div class="card border">
+              <img
+                src="./image/fc1.png"
+                class="card-img-top object-fit-contain py-5 px-4"
+                alt="..."
+              />
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Model: 2017 3100 Mi 240HP <br />
+                  automatic</small
+                >
+              </div>
+              <div class="p-3">
+                <h3 class="fs-5">BMW 6-Series Gran Coupe</h3>
+                <span>$89,395</span>
+                <p class="fs-6 opacity-75 pt-2">
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non.
+                </p>
+              </div>
+            </div>
+            <div class="card border">
+              <img
+                src="./image/fc2.png"
+                class="card-img-top object-fit-contain py-5 px-4"
+                alt="..."
+              />
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Model: 2017 3100 Mi 240HP <br />
+                  automatic</small
+                >
+              </div>
+              <div class="p-3">
+                <h3 class="fs-5">Chevrolet Camaro WMV20</h3>
+                <span>$66,575</span>
+                <p class="fs-6 opacity-75 pt-2">
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non.
+                </p>
+              </div>
+            </div>
+            <div class="card border">
+              <img
+                src="./image/fc3.png"
+                class="card-img-top object-fit-contain py-5 px-4"
+                alt="..."
+              />
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Model: 2017 3100 Mi 240HP <br />
+                  automatic</small
+                >
+              </div>
+              <div class="p-3">
+                <h3 class="fs-5">Lamborghini V520</h3>
+                <span>$125,250</span>
+                <p class="fs-6 opacity-75 pt-2">
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non.
+                </p>
+              </div>
+            </div>
+            <div class="card border">
+              <img
+                src="./image/fc4.png"
+                class="card-img-top object-fit-contain py-5 px-4"
+                alt="..."
+              />
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Model: 2017 3100 Mi 240HP <br />
+                  automatic</small
+                >
+              </div>
+              <div class="p-3">
+                <h3 class="fs-5">Audi A3 Sedan</h3>
+                <span>$95,500</span>
+                <p class="fs-6 opacity-75 pt-2">
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-group gap-5 py-5">
+            <div class="card border">
+              <img
+                src="./image/fc4.png"
+                class="card-img-top object-fit-contain py-5 px-4"
+                alt="..."
+              />
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Model: 2017 3100 Mi 240HP <br />
+                  automatic</small
+                >
+              </div>
+              <div class="p-3">
+                <h3 class="fs-5">Infiniti Z5</h3>
+                <span>$36,850</span>
+                <p class="fs-6 opacity-75 pt-2">
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non.
+                </p>
+              </div>
+            </div>
+            <div class="card border">
+              <img
+                src="./image/fc5.png"
+                class="card-img-top object-fit-contain py-5 px-4"
+                alt="..."
+              />
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Model: 2017 3100 Mi 240HP <br />
+                  automatic</small
+                >
+              </div>
+              <div class="p-3">
+                <h3 class="fs-5">Porsche 718 Cayman</h3>
+                <span>$48,500</span>
+                <p class="fs-6 opacity-75 pt-2">
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non.
+                </p>
+              </div>
+            </div>
+            <div class="card border">
+              <img
+                src="./image/fc7.png"
+                class="card-img-top object-fit-contain py-5 px-4"
+                alt="..."
+              />
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Model: 2017 3100 Mi 240HP <br />
+                  automatic</small
+                >
+              </div>
+              <div class="p-3">
+                <h3 class="fs-5">BMW 8-Series Coupe</h3>
+                <span>$56,000</span>
+                <p class="fs-6 opacity-75 pt-2">
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non.
+                </p>
+              </div>
+            </div>
+            <div class="card border">
+              <img
+                src="./image/fc8.png"
+                class="card-img-top object-fit-contain py-5 px-4"
+                alt="..."
+              />
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Model: 2017 3100 Mi 240HP <br />
+                  automatic</small
+                >
+              </div>
+              <div class="p-3">
+                <h3 class="fs-5">BMW Xseries-6</h3>
+                <span>$75,800</span>
+                <p class="fs-6 opacity-75 pt-2">
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                  amet, consectetur, adipisci velit, sed quia non.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid bg-light py-5">
+        <div class="container col-9">
+          <div class="text-center">
+            <h2 class="fs-1 line-2 position-relative">What Our Clients Say</h2>
+          </div>
+        </div>
+        <div
+          class="card-group container col-9 d-flex align-items text-center p-5 gap-5"
+        >
+          <div class="card border bg-light card-hover py-5 px-4">
+            <figure class="pb-2">
+              <img src="./image/c1 (1).png" alt="" />
+            </figure>
+            <p class="fs-6 position-relative pb-2">
+              Sed ut pers unde omnis iste natus <br />
+              error sit voluptatem accusantium <br />
+              dolor laudan rem aperiam, eaque <br />
+              ipsa quae ab illo inventore verit.
+            </p>
+            <span class="pb-2">Tomas Lili</span>
+            <span>New York</span>
+          </div>
+          <div class="card border bg-light card-hover py-5 px-4">
+            <figure class="pb-2">
+              <img src="./image/c2.png" alt="" />
+            </figure>
+            <p class="fs-6 position-relative pb-2">
+              Sed ut pers unde omnis iste natus <br />
+              error sit voluptatem accusantium <br />
+              dolor laudan rem aperiam, eaque <br />
+              ipsa quae ab illo inventore verit.
+            </p>
+            <span class="pb-2">Romi Rain</span>
+            <span>London</span>
+          </div>
+          <div class="card border bg-light card-hover py-5 px-4">
+            <figure class="pb-2">
+              <img src="./image/c3.png" alt="" />
+            </figure>
+            <p class="fs-6 position-relative pb-2">
+              Sed ut pers unde omnis iste natus <br />
+              error sit voluptatem accusantium <br />
+              dolor laudan rem aperiam, eaque <br />
+              ipsa quae ab illo inventore verit.
+            </p>
+            <span class="pb-2">John Doe</span>
+            <span>Washington</span>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid py-5">
+        <figure
+          class="container col-9 d-flex justify-content-between align-items-center"
+        >
+          <img src="./image/br1.png" alt="" /><img
+            src="./image/br2.png"
+            alt=""
+          /><img src="./image/br3.png" alt="" /><img
+            src="./image/br4.png"
+            alt=""
+          /><img src="./image/br5.png" alt="" /><img
+            src="./image/br6.png"
+            alt=""
+          />
+        </figure>
+      </section>
+      <footer class="container-fluid py-5 bg-primary">
+        <div class="container col-9 d-flex justify-content-between gap-5">
+          <div>
+            <h3>CARVILLA</h3>
+            <p>
+              Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua.
+              Ut enim ad minim veniam.
+            </p>
+            <p>name@domain.com</p>
+            <p>+1 (222) 1234567890</p>
+          </div>
+          <div>
+            <div class="box">
+              <h4>ABOUT DEVLOON</h4>
+              <ul>
+                <li class="list-group-item">About Us</li>
+                <li class="list-group-item">Career</li>
+                <li class="list-group-item">Terms of service</li>
+                <li class="list-group-item">Privacy Policy</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h4>TOP BRANDS</h4>
+            <div class="d-flex">
+              <ul>
+                <li class="list-group-item">BMW</li>
+                <li class="list-group-item">Lamborghini</li>
+                <li class="list-group-item">Camaro</li>
+                <li class="list-group-item">Audi</li>
+                <li class="list-group-item">Infiniti</li>
+                <li class="list-group-item">Nissan</li>
+              </ul>
+              <ul>
+                <li class="list-group-item">Ferrari</li>
+                <li class="list-group-item">Porsche</li>
+                <li class="list-group-item">Land Rover</li>
+                <li class="list-group-item">Aston Martin</li>
+                <li class="list-group-item">Mersedes</li>
+                <li class="list-group-item">Opel</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h4>NEWS LETTER</h4>
+            <p>Subscribe to get latest news update and informations</p>
+            <form><input type="email" /></form>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
